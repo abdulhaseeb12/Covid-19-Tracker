@@ -70,7 +70,7 @@ export default function NavBar() {
       <AppBar position="static">
         <Toolbar>
           <Typography className={classes.title} variant="h5" noWrap>
-            <b><i>COVID-19-TRACKER</i> </b>
+            <b><i>COVID-19-TRACKER BY HASEEB IMRAN</i></b>
           </Typography>
         </Toolbar>
       </AppBar>

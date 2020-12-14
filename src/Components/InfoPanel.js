@@ -1,7 +1,7 @@
 import React from 'react';
 import GlobalStats from './GlobalStats';
 import AllCountries from './AllCountries';
-import LineGraph from './LineGraph';
+import Chart from './Chart';
 
 export default function InfoPanel({currentScreen}) {
 
@@ -10,7 +10,7 @@ export default function InfoPanel({currentScreen}) {
     else if(currentScreen === 1)
         return <AllCountries />
     else if(currentScreen === 2)
-        return <LineGraph />
+        return <Chart />
     
     else return <GlobalStats />
 }

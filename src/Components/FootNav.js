@@ -28,7 +28,7 @@ export default function FootNav({screenConfig}) {
       showLabels
       className={classes.root}
     >
-      <BottomNavigationAction variant="contained"  label="Global Stats" icon={<LanguageSharpIcon />} />
+      <BottomNavigationAction variant="contained" label="Global Stats" icon={<LanguageSharpIcon />} />
       <BottomNavigationAction label="Country Stats" icon={<PlaceIcon />} />
       <BottomNavigationAction color="primary" label="Graphs" icon={<SquareFootIcon />} />
     </BottomNavigation>
