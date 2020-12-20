@@ -3,11 +3,12 @@
   justify-content: center;
   width: 65%;
   top: 60%;
+  margin-top: 90px;
 }
 
 @media only screen and (max-width: 550px) {
   .container {
-    width: 50%;
+    width: 60%;
     top: 60%
   }
 }
